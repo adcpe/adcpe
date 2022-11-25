@@ -3,11 +3,12 @@ import chalk from 'chalk'
 
 const data = {
   name: chalk.yellow.bold('Andrés Del Carpio'),
-  handle: chalk.yellow.bold('adcpe'),
+  handle: chalk.yellow.bold('@adcpe'),
   email: chalk.magenta('adc@adc.pe'),
   website: chalk.magenta('https://adc.pe'),
   github: chalk.magenta('https://github.com/adcpe/'),
   gitlab: chalk.magenta('https://gitlab.com/adcpe/'),
+  lastfm: chalk.magenta('https://www.last.fm/user/adcpe'),
   linkedin: chalk.magenta('https://www.linkedin.com/in/adcpe/'),
   blurb: [
     chalk.green('I enjoy learning and building things.'),
@@ -17,9 +18,10 @@ const data = {
 
 const output = [
   `                      ${data.email}`,
-  `${data.name}     ${data.website}`,
-  `            ${data.handle}     ${data.github}`,
-  `                      ${data.gitlab}`,
+  `                      ${data.website}`,
+  `${data.name}     ${data.github}`,
+  `           ${data.handle}     ${data.gitlab}`,
+  `                      ${data.lastfm}`,
   `                      ${data.linkedin}`,
   ``,
   ``,
