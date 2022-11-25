@@ -1,0 +1,29 @@
+{
+  "name": "adcpe",
+  "version": "1.0.0",
+  "description": "Personal and contact info for @adcpe",
+  "author": "Andrés Del Carpio <adc@adc.pe>",
+  "homepage": "https://github.com/adcpe/adcpe.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adcpe/adcpe.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "main": "./src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.1.2"
+  },
+  "devDependencies": {
+    "np": "^7.6.2"
+  }
+}
