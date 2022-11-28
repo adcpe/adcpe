@@ -32,7 +32,7 @@ const output = [
 const options = {
   float: 'center',
   borderStyle: 'double',
-  padding: { top: 2, bottom: 2, right: 4, left: 4 }
+  padding: 2
 }
 
 console.clear()
