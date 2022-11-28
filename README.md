@@ -1,13 +1,13 @@
-<!-- Heading -->
-
-<h2 align='center'>Welcome</h3>
+<h1 align='center'>Welcome</h3>
 
 ---
 
 TL;DR
 
 ```bash
-npx adcpe # pnpm dlx adcpe
+npx adcpe
+## or
+pnpm dlx adcpe
 ```
 
 I'm a full stack developer who leans a bit more towards front, but I'm not afraid of deployments or creating migrations.
@@ -18,10 +18,10 @@ Besides code, I like music, (watching) sports and sushi.
 
 ---
 
-<h3 align='center'>Elsewhere</h3>
+<h2 align='center'>Elsewhere</h2>
 
 <p align="center">
   <a href="https://adc.pe">Website + Blog</a> •
   <a href="https://gitlab.com/adcpe/">Gitlab</a> •
-  <a href="https://www.linkedin.com/in/adcpe/">Linkedin</a> •
+  <a href="https://www.linkedin.com/in/adcpe/">Linkedin</a>
 </p>
