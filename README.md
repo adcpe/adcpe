@@ -4,10 +4,8 @@
 
 TL;DR
 
-```bash
+```console
 npx adcpe
-## or
-pnpm dlx adcpe
 ```
 
 I'm a full stack developer who leans a bit more towards front, but I'm not afraid of deployments or creating migrations.
