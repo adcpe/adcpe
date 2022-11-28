@@ -1,5 +1,12 @@
+#!/usr/bin/env node
+
 'use strict'
 
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 import boxen from 'boxen'
 import chalk from 'chalk'
 
@@ -25,8 +32,8 @@ const output = [
   `           ${data.handle}     ${data.gitlab}`,
   `                      ${data.lastfm}`,
   `                      ${data.linkedin}`,
-  ``,
-  ``,
+  '',
+  '',
   data.blurb[0],
   data.blurb[1]
 ].join('\n')
@@ -37,9 +44,4 @@ const options = {
   padding: 2
 }
 
-console.clear()
-console.log('')
-console.log('')
-console.log(boxen(output, options))
-console.log('')
-console.log('')
+fs.writeFileSync(path.join(__dirname, './bin/output'), chalk.white(boxen(output, options)))
