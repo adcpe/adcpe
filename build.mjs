@@ -5,10 +5,11 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
 import boxen from 'boxen'
 import chalk from 'chalk'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const data = {
   name: chalk.yellow.bold('Andrés Del Carpio'),

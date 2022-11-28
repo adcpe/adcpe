@@ -1,8 +1,12 @@
 {
   "name": "adcpe",
   "version": "1.0.0",
-  "description": "Personal and contact info for @adcpe",
-  "author": "Andrés Del Carpio <adc@adc.pe>",
+  "description": "Personal and contact info for me, @adcpe.",
+  "author": {
+    "name": "Andrés Del Carpio",
+    "email": "adc@adc.pe",
+    "url": "https://adc.pe"
+  },
   "homepage": "https://github.com/adcpe/adcpe.git",
   "repository": {
     "type": "git",
@@ -15,12 +19,19 @@
     "npx card",
     "business card"
   ],
-  "main": "./src/index.mjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./bin/cmd.mjs",
+  "bin": {
+    "adcpe": "./bin/cmd.js"
   },
-  "dependencies": {
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "npm run build && node bin/cmd.js",
+    "fix": "standard --fix",
+    "test": "standard"
+  },
+  "devDependencies": {
     "boxen": "^7.0.0",
-    "chalk": "^5.1.2"
+    "chalk": "^5.1.2",
+    "standard": "^17.0.0"
   }
 }
