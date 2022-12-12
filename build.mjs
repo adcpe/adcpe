@@ -14,12 +14,12 @@ const __dirname = path.dirname(__filename)
 const data = {
   name: chalk.yellow.bold('Andrés Del Carpio'),
   handle: chalk.yellow.bold('@adcpe'),
-  email: chalk.magenta('adc@adc.pe'),
-  website: chalk.magenta('https://adc.pe'),
-  github: chalk.magenta('https://github.com/adcpe/'),
-  gitlab: chalk.magenta('https://gitlab.com/adcpe/'),
-  lastfm: chalk.magenta('https://www.last.fm/user/adcpe'),
-  linkedin: chalk.magenta('https://www.linkedin.com/in/adcpe/'),
+  email: chalk.cyan('adc@adc.pe'),
+  website: chalk.cyan('https://adc.pe'),
+  github: chalk.cyan('https://github.com/adcpe/'),
+  gitlab: chalk.cyan('https://gitlab.com/adcpe/'),
+  lastfm: chalk.cyan('https://www.last.fm/user/adc39'),
+  linkedin: chalk.cyan('https://www.linkedin.com/in/adcpe/'),
   blurb: [
     chalk.green('I enjoy learning and building things.'),
     chalk.green('I (try to) write readable and reusable code.')
